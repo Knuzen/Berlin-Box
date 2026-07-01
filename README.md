@@ -12,3 +12,29 @@ The project is intentionally kept simple and is based on affordable hardware suc
 
 This project started as a personal learning journey while exploring Reticulum and LXMF.
 
+## What is Berlin-Box?
+
+Berlin-Box is a portable autonomous Reticulum/LXMF node that acts like a permanently available communication partner.
+
+Its primary purpose is to make testing and demonstrating Reticulum networks easier. Instead of waiting for another operator to come online, users can simply discover Berlin-Box, send a message and immediately verify that their own setup is working correctly.
+
+The project deliberately focuses on simplicity, low power consumption and inexpensive hardware. Every component can be 
+reproduced by hobbyists, radio amateurs and anyone interested in decentralized communication.
+
+## Current Status
+
+The Berlin-Box is fully operational and continuously evolving.
+
+Current functionality includes:
+
+- Autonomous Reticulum node
+- Periodic network announces
+- Automatic LXMF replies
+- Raspberry Pi Zero based platform
+- RAK4631 RNode interface
+- Designed for portable and unattended operation
+
+Additional documentation, installation instructions and hardware details will be added as the project progresses.
+
+
+
