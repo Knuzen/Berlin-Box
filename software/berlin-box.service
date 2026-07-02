@@ -1,1 +1,15 @@
 
+[Unit]
+Description=BERLIN-BOX Reticulum LXMF Node
+After=network.target reticulum.service
+
+[Service]
+Type=simple
+User=pi3
+WorkingDirectory=/home/pi3/reticulum
+ExecStart=/home/pi3/reticulum/venv/bin/python /home/pi3/reticulum/berlin_box.py
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
