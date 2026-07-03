@@ -36,5 +36,11 @@ Current functionality includes:
 
 Additional documentation, installation instructions and hardware details will be added as the project progresses.
 
+## Experimental Setup
 
+The first experimental hardware setup during development.
+
+<p align="center">
+  <img src="Apparatus/experimental_setup.jpg" width="450">
+</p>
 
